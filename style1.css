@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 20px;
+  padding: 5%;
+}
+
+header>img {
+  width: 22%;
+  height: auto;
+}
+
+header, nav {
+  text-align: center;
+    }
+
+nav {
+  background-color: rgba(0,221,0,255);
+  padding: 1%;
+}
+
+
+header h2 {
+  color: rgba(0,221,0,255);
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+
+main {
+  color: white;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.SectionTitle {
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+
+.Subtext {
+  font-size: 14px;
+}
+
+.Subtext:before {
+  content: "\27FC";
+}
+
+.MediumBattery {
+  border: 15px solid rgba(245,180,83,255);
+  border-radius: 5px;
+  width: 27%;
+  margin: 0;
+}
+
+.HighBattery {
+  border: 15px solid rgba(30,195,30,255);
+  border-radius: 5px;
+  width: 55%;
+  margin: 0;
+}
+
+.LowBattery {
+  border: 15px solid rgba(190,65,65,255);
+  border-radius: 5px;
+  width: 13%;
+  margin: 0;
+}
